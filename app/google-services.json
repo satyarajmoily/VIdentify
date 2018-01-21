@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "505561659928",
+    "firebase_url": "https://videntify-10dbc.firebaseio.com",
+    "project_id": "videntify-10dbc",
+    "storage_bucket": "videntify-10dbc.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:505561659928:android:225af978a72b1da9",
+        "android_client_info": {
+          "package_name": "com.howaboutthis.satyaraj.videntify"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "505561659928-hl0ia671qkbb76jr9fkm9fuh4pc38q1a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.howaboutthis.satyaraj.videntify",
+            "certificate_hash": "6ed40af354711da84325ec46c5b338da85370778"
+          }
+        },
+        {
+          "client_id": "505561659928-ehlrvam7p4vejqa1dkfga36ru4cab7ng.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvUXf49ty62U-q13kBLqrmYTO_8oiNAxM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "505561659928-ehlrvam7p4vejqa1dkfga36ru4cab7ng.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

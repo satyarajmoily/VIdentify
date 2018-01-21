@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">VIdentify</string>
+    <string name="action_profile">Profile</string>
+    <string name="profile_picture">Profile Picture</string>
+    <string name="logout">LOGOUT</string>
+    <string name="about">About</string>
+    <string name="email_videntify_com">email@videntify.com</string>
+    <string name="videntify_user">VIdentify User</string>
+    <string name="please_pick_a_concept">Please pick a concept</string>
+    <string name="login_with">LOGIN WITH</string>
+    <string name="videntify">Videntify</string>
+    <string name="info_2">We use our machine learning techniques in different APIs and make your life easier.</string>
+    <string name="info_1">Sometimes what you see may not be true.</string>
+    <string name="selected_image">Selected Image</string>
+    <string name="info_3">You will have to pick a category to detect only those concepts.</string>
+    <string name="take_a_picture">TAKE A PICTURE</string>
+    <string name="or">OR</string>
+    <string name="pick_from_gallery">PICK FROM GALLERY</string>
+    <string name="info_4">NOTE: The result obtained from processing the image will be the concepts identified in the image and the accuracy rate.</string>
+    <string name="text_view">textView</string>
+    <string name="_98">98%</string>
+    <string name="title_activity_tone_analyzer_activty">ToneAnalyzerActivty</string>
+
+
+    <string name="username">a42e9899-f62a-4c1d-abac-e2acc8adfbc2</string>
+    <string name="password">i24s2VHuFxXZ</string>
+    <string name="title_activity_conversation">ConversationActivity</string>
+    <string name="videntify_image">Videntify Image</string>
+    <string name="type_something">Type something</string>
+    <string name="send_button">Send Button</string>
+    <string name="enter_your_text_here">Enter your text here.</string>
+    <string name="analyze">Analyze</string>
+    <string name="clear">CLEAR</string>
+    <string name="your_result_will_appear_here">Your result will appear here.</string>
+    <string name="camera">Camera</string>
+    <string name="title_activity_language_translator">LanguageTranslatorActivity</string>
+    <string name="swap">Swap</string>
+    <string name="cancel">Cancel</string>
+    <string name="tap_to_enter_text">Tap to enter text</string>
+    <string name="translate">Translate</string>
+    <string name="visual_recognition">Visual Recognition</string>
+    <string name="process_your_image">This API will process your image and describe the contents in the image.</string>
+    <string name="text_tone_analyzer">Text Tone Analyzer</string>
+    <string name="process_your_text">This API will process your text and tell the Emotional Tone, Language Tone and Social Tone.</string>
+    <string name="have_a_conversation">Have A Conversation</string>
+    <string name="car_dashboard">This API is used to interact to your commands and do stuffs in a car dashboard i.e "Play the music", "Turn on the lights", etc.</string>
+    <string name="language_translator">Language Translator</string>
+    <string name="this_api_is_used_to_translate">This API is used to translate the text into any available language.</string>
+    <string name="text_to_analyze">Text to analyze</string>
+    <string name="analyzing">Analyzing…</string>
+
+    <string-array name="languages">
+        <item>Select a language</item>
+        <item>Arabic</item>
+        <item>German</item>
+        <item>English</item>
+        <item>Spanish</item>
+        <item>French</item>
+        <item>Italian</item>
+        <item>Japanese</item>
+        <item>Korean</item>
+        <item>Portuguese</item>
+    </string-array>
+</resources>

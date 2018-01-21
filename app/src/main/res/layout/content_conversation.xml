@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+    android:background="#ececec"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="vertical"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context="com.howaboutthis.satyaraj.videntify.ConversationActivity"
+        tools:showIn="@layout/activity_conversation">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/message_layout"
+        android:layout_alignParentTop="true"
+        android:scrollbars="vertical"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+         />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/message_layout"
+        android:padding="8dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/input_message"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:maxLines="4"
+            android:layout_marginEnd="8dp"
+            android:background="@drawable/input_message_background"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:layout_height="match_parent"
+            android:hint="@string/type_something" />
+
+        <ImageButton
+            android:layout_width="50dp"
+            android:src="@drawable/ic_send_black_24dp"
+            android:background="@drawable/send_button"
+            android:layout_height="50dp"
+            android:id="@+id/send_button"
+            android:tint="@android:color/white"
+            android:contentDescription="@string/send_button" />
+    </LinearLayout>
+
+    </RelativeLayout>
